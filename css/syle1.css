@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+#texte {
+font-family: 'Lobster', cursive;
+font-size: 25px;
+color: white;
+top: -200px;
+text-align: center;
+position:relative;
+}
+body {
+font-family: 'Lobster', cursive;
+  height: 250px;
+width: 100%;
+object-fit: fill;
+position: absolute;
+background-color:lightgrey;
+}
+.back{
+height: 250px;
+width: 100%;
+object-fit: fill;
+position: relative;
+image-resolution: from-image;
+opacity: 0.4;
+
+}
+.topnav {
+height: 60px;
+width: 100%;
+background-color:white;
+position: fixed;
+top: 0px;
+}
+.topnav img{
+height: 100%;
+width:300px;
+position: relative;
+background-repeat: no-repeat;
+left:  500px;
+}
+.btn {
+  position: fixed;
+  top:5px;
+  left:  1200px;
+  height: 50px;
+  background-color: transparent; /* Blue background */
+  border: none; /* Remove borders */
+  color: black; /* White text */
+  padding: 12px 16px; /* Some padding */
+  font-size: 16px; /* Set a font size */
+  cursor: pointer;
+}
+.btn1 {
+  position: fixed;
+  top:5px;
+  left:  1250px;
+  height: 50px;
+  background-color: transparent; 
+  border: none; /* Remove borders */
+  color: black; /* White text */
+  padding: 12px 16px; /* Some padding */
+  font-size: 16px; /* Set a font size */
+  cursor: pointer;
+}
+
+.topnav input[type=text] {
+position: fixed;
+top:5px;
+left:  1000px;
+height: 50px;
+width: 200px;
+box-sizing: border-box;
+border: 2px solid #ccc;
+border-radius: 4px;
+font-size: 16px;
+background-color: white;
+background-image: url('searchicon.png');
+background-position: 10px;
+background-repeat: no-repeat;
+padding: 12px 20px 12px 40px;
+-webkit-transition: width 0.4s ease-in-out;
+transition: width 0.4s ease-in-out;
+}
+
+
+
+.sidenav {
+  height: 100%;
+  width: 70px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #22353C;
+  overflow-x: hidden;
+
+}
+.sidenav a {
+  text-decoration: none;
+  font-size: 12px;
+  color: grey;
+  display: block;
+  border:0.1px groove grey;
+  text-align: center;
+  padding: 20px 0px;
+
+}
+.sidenav a:hover{
+  background-color:#AC0A22;
+  color: white;
+}
+
+
+.material-icons.md-48 { font-size: 48px; }
+
+
+iframe {
+
+  border:0;
+  margin:0;
+  padding:0;
+  width:100%;
+  height:100%;
+}
+.btn2{
+
+  display: inline-block;
+    padding: 15px 25px;
+    font-size: 14px;
+    left: 20%;
+    width: 80px;
+    cursor: pointer;
+
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+
+}
+.btn2:hover {background-color: #3e8e41}
+
+.btn2:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.dropdown {
+
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  top: 0px;
+  position: absolute;
+  right: 0;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: grey}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .btn1 {
+  background-color: grey;
+}
+
+.img1{
+  
+ position: relative;
+image-resolution: from-image;
+  height:300px ;
+  width:100%;
+  opacity: 0.4;
+}
